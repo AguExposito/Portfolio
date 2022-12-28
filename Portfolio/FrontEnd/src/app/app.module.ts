@@ -16,6 +16,8 @@ import { WholePageComponent } from './components/whole-page/whole-page.component
 import { AcercaDeFotoComponent } from './components/acerca-de-foto/acerca-de-foto.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { HttpClientModule } from '@angular/common/http';
+import { HomeComponent } from './components/home/home.component';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { HttpClientModule } from '@angular/common/http';
     ProyectosComponent,
     FooterComponent,
     WholePageComponent,
-    AcercaDeFotoComponent
+    AcercaDeFotoComponent,
+    HomeComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

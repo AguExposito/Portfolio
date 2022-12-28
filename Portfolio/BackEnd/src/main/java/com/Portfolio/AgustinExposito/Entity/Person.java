@@ -23,14 +23,12 @@ public class Person {
     
     @NotNull
     @Size(min=1, max=50, message="No cumple con la longitud")
-    private String name;
+    private String nombre;
     
     @NotNull
     @Size(min=1, max=50, message="No cumple con la longitud")
-    private String surname;
+    private String apellido;
     
     @Size(min=1, max=50, message="No cumple con la longitud")
     private String img;
-    
-    
 }

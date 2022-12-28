@@ -15,6 +15,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { WholePageComponent } from './components/whole-page/whole-page.component';
 import { AcercaDeFotoComponent } from './components/acerca-de-foto/acerca-de-foto.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -68,7 +69,8 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
       "imageHeight": 105,
       "imageWidth": 105,
       "showImage": true,
-    })
+    }),
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
